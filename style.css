@@ -1,0 +1,150 @@
+/* Reset css */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* -------------------------------- */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #142f43;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #fffcfe;
+}
+.mobile-menu{
+    display: none;
+}
+
+@media (max-width:468px) {
+    .mobile-menu{
+        display: block;
+    }
+    .pc-menu{
+        display: none;
+    }
+}
+/* nav-bar */
+.page{
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: ;
+}
+
+.container .container-1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+.container .container-1 .list-option{
+    height: 100%;
+    background-color: white;
+}
+.container .container-1 .list-option ul{
+    height: 100%;
+    background-color: white;
+}
+.container .container-1 .list-option ul li{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container .container-1 ul li:hover{
+    border: 2px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: red;
+}
+.container .container-2 .account-menu ul{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+.container .container-2 .account-menu ul li{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 100%;
+}
+.container .container-2 .account-menu ul li:hover{
+    background-color:#FF5B6A;
+}
+/* ---------- */
+/* nav-bar under */
+.main .nav-items{
+    padding: 20px;
+}
+    .main .nav-items ul li{
+        background-color:#FFEAE3;
+        text-decoration: black;
+    }
+    .main .nav-items ul li:hover {
+        background-color: #FF5B6A;
+        text-decoration: black;
+    }
+/* ------------------------------ */
+/* cardholder */
+.main .body-section{
+    padding: 80px;
+}
+.main .new-home-section .card{
+    height: 350px;
+}
+.main .new-home-section .card .row .btn .btn-outline-danger{
+    width: 100%;;      
+}
+.body-section .head-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* footer page */
+.footer{
+    background-color:#FFEAE3
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.container-footer .subcribe .form-email{
+    display: flex;
+    flex-direction: row;
+}
+.container-footer .subcribe h3{
+    font-size: 18px;
+}
+.container-footer .right-content .f-menu .item{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container-footer .right-content .f-menu .item a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.container-footer .right-content .f-menu .item a:hover{
+    color: #FF5B6A;
+}
+.footer .copyright{
+    background: #FF9EA2;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px 15px 15px;
+}
+lder-opacity-max:           .3;
+$placeholder-opacity-min:           .3;
